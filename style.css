@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    display:flexbox;
+}
+
+header{
+}
+
+h1{
+    text-align: center;
+}
+
+#hero{
+    background: bottom / 100% url(images/cof.jpg);
+    height: 350px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    transition: .5s ease all;
+    text-align: left;
+    padding-top: 5px;
+    color: #ffff;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.Home{
+    
+}
+
+.navbar li:hover{
+    text-decoration: underline;
+    color: #ffffffc7;
+    transition: .5s ease all;
+    cursor: pointer;
+}
